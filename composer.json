@@ -1,0 +1,19 @@
+{
+    "name": "weirui/message",
+    "description": "a test file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "陈维锐",
+            "email": "17876574358@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Play\\Message\\": "src/"
+        }
+    }
+}
