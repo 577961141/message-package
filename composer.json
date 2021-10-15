@@ -15,5 +15,12 @@
         "psr-4": {
             "Play\\Message\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Play\\Message\\MessageServiceProvider"
+            ]
+        }
     }
 }
